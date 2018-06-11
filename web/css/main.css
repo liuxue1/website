@@ -1,0 +1,46 @@
+body,ul,h1,h2,h3,h4,h5,h6,form{
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:0px;
+}
+em{
+    font-style:normal;
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display: table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    zoom: 1;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.header-con{
+    height:29px;
+    border-bottom:1px solid #ddd;
+    background-color:#f7f7f7;
+}
+.content-con{
+    width:1200px;
+    height:29px;
+    margin:0 auto;
+}
+.welcome{
+    font:12px/29px 'Microsoft Yahei';
+    color:#666666;
+}
